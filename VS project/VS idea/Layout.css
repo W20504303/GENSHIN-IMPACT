@@ -1,0 +1,50 @@
+body{
+    background-image: url('genshin impact.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: absolute;
+    white-space: nowrap;
+}
+
+.centered{
+    position: fixed;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: white;
+    font-size: 120%;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 0.9em;
+    white-space: nowrap;
+}
+
+.divider1 {
+    height: 2px;
+    width:200px;
+    top: 55%;
+    left: 25%;
+    position: fixed;
+    background-color: white;
+}
+
+.divider2 {
+    height: 2px;
+    width:200px;
+    top: 55%;
+    right: 25%;
+    position: fixed;
+    background-color: white;
+}
+
+@media (min-width: 768px) {
+    .centered { font-size: 100%; }
+}
