@@ -1,0 +1,49 @@
+.group1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: absolute;
+    white-space: nowrap;
+}
+
+.Getstarted{
+    position: fixed;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 0.9em;
+    white-space: nowrap;
+}
+
+.line1{
+    height: 2px;
+    width:150px;
+    top: 55%;
+    left: 29%;
+    position: fixed;
+    background-color: white;
+    transform: rotate(0.67deg);
+}
+
+.line2{
+    height: 2px;
+    width:150px;
+    top: 55%;
+    right: 29%;
+    position: fixed;
+    background-color: white;
+    transform: rotate(0.67deg);
+}
+
+.image{
+    position: fixed;
+    width: 807px;
+    height: 448px;  
+    left: 336px;
+    top: 100px;
+}

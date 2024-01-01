@@ -1,0 +1,11 @@
+.part{
+    position: absolute;
+    width: 1200px;
+    height: 649px;
+    padding: 18px;
+    background-image: url('/VS\ idea\ image/enkan.jpg');
+    mix-blend-mode: soft-light;
+    border-radius: 30px;
+    opacity: 0.8;
+}
+
